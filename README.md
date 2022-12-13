@@ -10,7 +10,7 @@
 
 In this guide we will setup a simple no fills Sway development environment, we will setup the whole thing from scratch: from installing Rust and Sways language server for VScode to the fuel tool chain. We will initialize a skeleton forc project that has a Sway main file and initialize a test harness for integration testing. A description of the conventions of basic fuel project development is given from square one and is targeted at developers getting to know the Sway landscape within Fuel.
 
-Additionally as a simple example we will borrow [Cami's full-stack fuel example](https://github.com/camiinthisthang/fullstack-fuel), adding in the counter contract code and an integration test. This section is short as the objective of this guide is to get acquainted with the forc toolchain and Sway program development. I encourage you to read the full-stack fuel example as it gives excellent detail into the contract code line-by-line. Leave comments over at [fuel forum](https://forum.fuel.network/).
+Additionally as a simple example we will borrow [Cami's full-stack fuel example](https://github.com/camiinthisthang/fullstack-fuel), adding in the counter contract code and an integration test. This section is short as the objective of this guide is to get acquainted with the forc toolchain and Sway program development. I encourage you to read the full-stack fuel example as it gives excellent detail into the contract code line-by-line. Leave comments over at the [fuel forum](https://forum.fuel.network/t/sway-developer-environment-basic-setup/410).
 
 <br></br>
 
@@ -272,7 +272,7 @@ Lets take account of what we've done so far:
 
 # Counter Contract Example:
 
-If you haven't already checkout [Cami's full-stack fuel example](https://github.com/camiinthisthang/fullstack-fuel) with the counter contract take a look. This is what we will be basing the contract code off below.
+If you haven't already checked out [Cami's full-stack fuel example](https://github.com/camiinthisthang/fullstack-fuel) with the counter contract take a look. This is what we will be basing the contract code off below.
 
 In the `main.sw` file we have from out initialized forc project above, replace whats in `main.sw` with the counter contract code below: 
 
