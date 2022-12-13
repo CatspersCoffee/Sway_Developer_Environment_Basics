@@ -1,17 +1,9 @@
 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png">
   <img alt="title image light / dark." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
 </picture>
 
-<!-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
-  <img alt="title image light / dark." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png">
-</picture> -->
-
-
-  <!-- <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png"> -->
 
 <br></br>
 # Sway bare-bones Development Environment.
@@ -37,7 +29,7 @@ Even with the above said, the in Fuel ecosystem, its tooling and code are under 
 
 
 ## Rust:
-We need Rust installed. Its not strictly necessary for the fuel toolchain to be installed but it is for the integration testing that we will be going over. Install Rust and verify the version. Im working on Ubuntu for which the set of commands to install Rust are below. Your system may be different, but follow the guide [here](https://www.rust-lang.org/tools/install) if you need. 
+We need Rust installed. Its not strictly necessary for the fuel toolchain to be installed but it is for the integration testing that we will be going over. Install Rust and verify the version. Im working on Ubuntu (Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-53-generic x86_64)) for which the set of commands to install Rust are below. Your system may be different, but follow the guide [here](https://www.rust-lang.org/tools/install) if you need. 
 
 Ubuntu:
 ```
@@ -67,16 +59,12 @@ So in this example at the time of writing we have rustup version 1.25.1 and the 
 
 I'm going to assume any sane developer, presumably like yourself is going to use VScode to write the majority of their code. If you're a glass eater and want to use `vim` then I applaud you. For the rest of us normies lets just install Visual Studio code, you can get it [here](https://code.visualstudio.com/download). Once installed add the Sway extension to VScode to make life easier:
 
-<!-- ![sway_extension_dark](docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![sway_extension_light](docs/imgs/sway_vscode_light#gh-light-mode-only) -->
-<!-- ![sway_extension_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png#gh-dark-mode-only)![sway_extension_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png#gh-light-mode-only) -->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png">
   <img alt="light dark vscode." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png">
 </picture>
 
 
-  <!-- <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png"> -->
 
 <br></br>
 
@@ -461,14 +449,23 @@ $ fuel-core run --db-type in-memory
 ```
 
 
-
-
-
-
-
-
 <br></br>
 
-## Whats my system:
+# References & Links:
 
-`Ubuntu 22.04.1 LTS (GNU/Linux 5.15.0-53-generic x86_64)`
+[Fuel forum](https://forum.fuel.network/)
+
+[The Sway Programming Language](https://fuellabs.github.io/sway/v0.31.3/)
+
+[The Fuel Book](https://fuellabs.github.io/fuel-docs/master/index.html)
+
+[awesome-fuel](https://github.com/FuelLabs/awesome-fuel)
+
+[Fuel Specifications](https://github.com/FuelLabs/fuel-specs)
+
+[Rust SDK for Fuel](https://github.com/FuelLabs/fuels-rs)
+
+[Sway Applications](https://github.com/FuelLabs/sway-applications)
+
+
+
