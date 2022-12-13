@@ -1,6 +1,6 @@
 # Sway bare-bones Development Environment.
 
-In This guide we will setup a simple no fills Sway development environment, we will setup the whole thing from scratch: from installing Rust and Sways language server for VScode to the fuel tool chain. We will initialize a skeleton forc project that has a Sway main file and initialize a test harness for integration testing. A description of the conventions of basic fuel project development is given from square one and is targeted at developers getting to know the Sway landscape within Fuel.
+In this guide we will setup a simple no fills Sway development environment, we will setup the whole thing from scratch: from installing Rust and Sways language server for VScode to the fuel tool chain. We will initialize a skeleton forc project that has a Sway main file and initialize a test harness for integration testing. A description of the conventions of basic fuel project development is given from square one and is targeted at developers getting to know the Sway landscape within Fuel.
 
 Additionally as a simple example we will borrow [Cami's full-stack fuel example](https://github.com/camiinthisthang/fullstack-fuel), adding in the counter contract code and an integration test. This section is short as the objective of this guide is to get acquainted with the forc toolchain and Sway program development. I encourage you to read the full-stack fuel example as it gives excellent detail into the contract code line-by-line. Leave comments over at [fuel forum](https://forum.fuel.network/).
 
@@ -57,7 +57,10 @@ So in this example at the time of writing we have rustup version 1.25.1 and the 
 
 I'm going to assume any sane developer, presumably like yourself is going to use VScode to write the majority of their code. If you're a glass eater and want to use `vim` then I applaud you. For the rest of us normies lets just install Visual Studio code, you can get it [here](https://code.visualstudio.com/download). Once installed add the Sway extension to VScode to make life easier:
 
-![vscode_sway_extension](docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![GitHub-Mark-Dark](docs/imgs/sway_vscode_light#gh-light-mode-only)
+<!-- ![sway_extension_dark](docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![sway_extension_light](docs/imgs/sway_vscode_light#gh-light-mode-only) -->
+![sway_extension_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![sway_extension_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png#gh-light-mode-only)
+
+
 
 
 <br></br>
@@ -66,7 +69,7 @@ I'm going to assume any sane developer, presumably like yourself is going to use
 
 To develop in Sway on the Fuel blockchain you want to have the Fuel toolchain installed. `fuelup` is the official package manager for the Fuel toolchain. The take away here is what you get with fuelup is `forc` (the `f`uel `orc`hestrator), `fuel-core` as well as a bunch of other tools.
 
-`forc` provides a variety of tools and commands for developers working with the Fuel ecosystem, from a simple way to scaffold a new project to formatting, running scripts, deploying contracts, testing contracts, and more. `forc` is to Fuel, what `cargo` is to Rust or what `pip` is to Pyhon. `fuel-core` lets you spin up an local Fuel node to run tests against during your Sway development.
+`forc` provides a variety of tools and commands for developers working with the Fuel ecosystem, from a simple way to scaffold a new project to formatting, running scripts, deploying contracts, testing contracts, and more. `forc` is to Fuel, what `cargo` is to Rust or what `pip` is to Python. `fuel-core` lets you spin up an local Fuel node to run tests against during your Sway development.
 
 
 
@@ -203,14 +206,17 @@ $ cargo generate --init fuellabs/sway templates/sway-test-rs --name project-1 --
 🔧   Destination: /home/catsper/fuel/workspace/project-1 ...
 🔧   project-name: project-1 ...
 🔧   Generating template ...
-[1/3]   Done: Cargo.toml                                                                                                                                                          [2/3]   Done: tests/harness.rs                                                                                                                                                    [3/3]   Done: tests                                                                                                                                                               🔧   Moving generated files into: `/home/catsper/fuel/workspace/project-1`...
+[1/3]   Done: Cargo.toml
+[2/3]   Done: tests/harness.rs
+[3/3]   Done: tests
+🔧   Moving generated files into: `/home/catsper/fuel/workspace/project-1`...
 ✨   Done! New project created /home/catsper/fuel/workspace/project-1
 ```
 
 If you have changed the project name to something other than `project-1`, then modify the `--name project-1` part of the above.
 
 
-Awesome! Now we have the project directoy looking like the below, with the test `harness.rs` in the `/tests` sub directory:
+Awesome! Now we have the project directory looking like the below, with the test `harness.rs` in the `/tests` sub directory:
 
 ```
 .
@@ -422,7 +428,7 @@ test can_inc_counter ... ok
 test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.39s
 ```
 
-
+Congratulations, you've just compiled and tested your first Sway contract.
 
 
 
