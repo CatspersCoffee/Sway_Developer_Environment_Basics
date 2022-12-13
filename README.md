@@ -1,5 +1,5 @@
 
-![title_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png#gh-dark-mode-only)![title_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png#gh-light-mode-only)
+![title_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png#gh-dark-mode-only)![title_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png#gh-light-mode-only)
 
 
 <br></br>
@@ -57,7 +57,7 @@ So in this example at the time of writing we have rustup version 1.25.1 and the 
 I'm going to assume any sane developer, presumably like yourself is going to use VScode to write the majority of their code. If you're a glass eater and want to use `vim` then I applaud you. For the rest of us normies lets just install Visual Studio code, you can get it [here](https://code.visualstudio.com/download). Once installed add the Sway extension to VScode to make life easier:
 
 <!-- ![sway_extension_dark](docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![sway_extension_light](docs/imgs/sway_vscode_light#gh-light-mode-only) -->
-![sway_extension_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png#gh-dark-mode-only)![sway_extension_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png#gh-light-mode-only)
+![sway_extension_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png#gh-dark-mode-only)![sway_extension_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png#gh-light-mode-only)
 
 
 
