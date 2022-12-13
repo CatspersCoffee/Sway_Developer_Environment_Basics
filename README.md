@@ -1,10 +1,9 @@
 
-<!-- ![title_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png#gh-dark-mode-only)![title_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png#gh-light-mode-only) -->
 
-
-<picture align="center">
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
+  <img alt="title image light / dark." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
 </picture>
 
 
