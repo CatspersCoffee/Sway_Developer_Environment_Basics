@@ -1,3 +1,8 @@
+
+![title_dark](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png#gh-dark-mode-only)![title_light](https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png#gh-light-mode-only)
+
+
+<br></br>
 # Sway bare-bones Development Environment.
 
 In this guide we will setup a simple no fills Sway development environment, we will setup the whole thing from scratch: from installing Rust and Sways language server for VScode to the fuel tool chain. We will initialize a skeleton forc project that has a Sway main file and initialize a test harness for integration testing. A description of the conventions of basic fuel project development is given from square one and is targeted at developers getting to know the Sway landscape within Fuel.
@@ -12,12 +17,6 @@ As a new developer or even a seasoned one when coming to a new ecosystem and get
 
 Even with the above said, the in Fuel ecosystem, its tooling and code are under rapid development, as a beginner you may come across some code examples that are a little outdated or guides that need updating from version changes. If you're finding all the links to docs, guides and how to's a little overwhelming lets start with the bare minimum background information to form a foundation to understanding the Fuel ecosystem and get you up and running quickly and into a reasonably bare bones Sway development environment. This guide is based off `forc` version `0.31.3` and is an aggregation of the important parts from a handful of setup guides in order to save you some time getting setup.
 
-
-
-<!-- <br></br>
-# Before we get started 
-
-Some prerequisites, I know i said that this guide was from zero to hero, but we do need a few things that i dont want to describe here, only because there is a plethora of guides on how to install the below scattered all over the web. What you're going to need: -->
 
 
 
