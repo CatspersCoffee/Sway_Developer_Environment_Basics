@@ -2,10 +2,10 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
   <img alt="title image light / dark." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png">
 </picture>
 
+  <!-- <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/title_light.png"> -->
 
 <br></br>
 # Sway bare-bones Development Environment.
@@ -66,10 +66,11 @@ I'm going to assume any sane developer, presumably like yourself is going to use
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png">
-  <img alt="Shows a black logo in light color mode and a white one in dark color mode.">
+  <img alt="light dark vscode." src="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png">
 </picture>
 
+
+  <!-- <source media="(prefers-color-scheme: light)" srcset="https://github.com/CatspersCoffee/Sway_Developer_Environment_Basics/blob/main/docs/imgs/sway_vscode_light.png"> -->
 
 <br></br>
 
